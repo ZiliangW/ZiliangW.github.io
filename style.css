@@ -26,7 +26,7 @@ nav a{
     margin: 20px;
     box-shadow: 10px 10px 10px #c6c6c6;
      border-radius: 50%;
-    margin-left: 140px;
+    margin-left: 240px;
     width:50px;
     height: 50px;
     color: aliceblue;
@@ -36,7 +36,7 @@ nav a{
 
 }
 
-nav b{
+nav a:nth-child(even){
     border: 1px solid white;
     background-color: deepskyblue;
     display: block;
@@ -45,7 +45,7 @@ nav b{
     margin: 20px;
     box-shadow: 10px 10px 10px #c6c6c6;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 150px;
      width: 50px;
     height: 50px;
     color: aliceblue;
