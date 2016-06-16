@@ -1,67 +1,85 @@
 
 
 .wrapper{
-  
-    width: 1000px;
-    
+    background: transparent url("http://pic.aoyier.com/up/d3d3Lmt1bWkuY24vcGhvdG8vZDQvNGIvN2EvZDQ0YjdhZjllNThlNzhmZS5qcGcdeng.jpg") no-repeat center;
+    width: 1300px;
+    height:700px;
+}
 
-   
+.wrapper1{
+    background: transparent url("http://ww4.sinaimg.cn/large/6e27a135jw1eganf8clicj20sg0lcgs9.jpg") no-repeat center;
+    width: 1300px;
+    height:700px;
+    margin-left:auto;
 }
 
 nav{
     
     width: 200px;
     margin-top: 30px; 
-  
-   
-   
 }
 
 nav a{
     border: 1px solid white;
-    background-color: cornflowerblue;
+    background-color:burlywood;
     display: block;
     padding: 15px;
     text-align: center;
     margin: 20px;
     box-shadow: 10px 10px 10px #c6c6c6;
      border-radius: 50%;
-    margin-left: 240px;
+    margin-left: 95px;
     width:50px;
     height: 50px;
     color: aliceblue;
-   
-   
-   
-
+    margin-top: 35px;
 }
 
 nav a:nth-child(even){
     border: 1px solid white;
-    background-color: deepskyblue;
+    background-color:bisque;
     display: block;
     padding: 15px;
     text-align: center;
     margin: 20px;
     box-shadow: 10px 10px 10px #c6c6c6;
     border-radius: 50%;
-    margin-left: 150px;
+    margin-left: 5px;
      width: 50px;
     height: 50px;
     color: aliceblue;
-   
-    
+    margin-top: 35px;
 }
-
-
+nav a:hover {
+    height: 50px;
+    background-color: darksalmon;
+}
 header{
       border: 1px solid white;
-    background: transparent url("http://pic1.win4000.com/wallpaper/2/570cc6df99ad5.jpg") no-repeat center;
+    
     background-size:1200px;
-    height: 350px;
+    height: 0px;
     width: 1200px;
     margin: auto;
+}
+
+.photo-container{height:400px}
+.photo1 {
+    background: transparent url("8.pic.jpg") no-repeat center;
+    background-size: cover;
+    width: 30px;
+    height: 100px;
     
-  
-    
+}
+.photo2 {
+    background: transparent url("3.pic.jpg") no-repeat center;
+    background-size:cover; 
+}
+.photo3 {
+    background: transparent url("4.pic.jpg") no-repeat center;
+    background-size:cover; 
+}
+.photo4 {
+    background: transparent url("5.pic.jpg") no-repeat center;
+    background-size:cover; 
 }
